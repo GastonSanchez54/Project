@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 6px 13px;
+ 
+}
+
+.page-nav {
+    background: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
+    border: 2px solid rgb(18, 87, 108);
+    position: relative;
+}
+
+.page-nav  h1 {
+    margin: 20px;
+}
+
+.button-checkout {
+    background-color: rgb(216, 213, 213);
+    color: black;
+    border: 2px solid #070a0a;
+    transition-duration: 0,4s;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+.button-checkout:hover {
+    background-color: #27a7a7 ;
+    color: white;
+
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid rgb(7, 48, 59);
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }   
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 20px;
+    margin-left: 15px;
+
+
+}
+
+.button-add {
+    background-color: rgb(216, 213, 213);
+    color: black;
+    border: 2px solid #020202;
+    transition-duration: 0,4s;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+.button-add:hover {
+    background-color: #365858 ;
+    color: white;
+}
